@@ -5,7 +5,7 @@
 # DNS：233.5.5.5 233.6.6.6
 # 所有服务器均支持PXE网络启动 
 # 实现目的：通过配置Cobbler服务器，全自动批量安装部署Linux系统 
-
+# https://www.sundayle.com/2018/07/01/cobbler/
 SERVER_IP=192.168.70.3 #服务器IP
 DHCP_SUBNET=192.168.70.0 #网络号
 DHCP_ROUTER=192.168.70.2 #网关
