@@ -14,4 +14,4 @@ ISO='/dev/cdrom' #CentOS7镜像位置
 # 自动化安装  指定ip gateay dns（--mac: 客户端mac地址） 客户端开机即可自动安装  
 cobbler system add --name=nginx_server --mac=00:0C:29:8A:A7:92 --profile=CentOS-7-x86_64 --ip-address=192.168.70.118 --subnet=255.255.255.0 --gateway=192.168.70.2 --interface=eth0 --static=1 --hostname=www.sundayle.com --name-servers="223.5.5.5 223.6.6.6" --kickstart=/var/lib/cobbler/kickstarts/CentOS-7-x86_64.cfg
 
-https://www.sundayle.com/2018/07/01/cobbler/
+https://www.sundayhk.com/cobbler/
